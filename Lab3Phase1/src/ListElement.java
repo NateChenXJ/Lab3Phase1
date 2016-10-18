@@ -11,7 +11,7 @@ public class ListElement {
 	/**
 	 * function
 	 */
-	public ListElement(){
+	public ListElement(int data){
 		this.data = data;
 		this.next = null;
 		this.previous = null;
@@ -41,6 +41,8 @@ public class ListElement {
 		return previous;
 	}
 	
-	
+	public void display(){
+		System.out.println(this.data);
+	}
 
 }
